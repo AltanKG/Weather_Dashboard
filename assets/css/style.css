@@ -1,3 +1,4 @@
+/* Universal selector and sytling  */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -5,10 +6,12 @@
   font-family: "Times New Roman", Times, serif;
 }
 
+/* Set background image for body of page  */
 body {
   background-image: url("../images/background.png");
 }
 
+/* Set header styling */
 header {
   background-image: linear-gradient(to right, #4285f4, darkblue);
   color: white;
@@ -17,19 +20,23 @@ header {
   font-weight: bold;
 }
 
+/* Padding for the aside section */
 .asideCustom {
   padding: 10px;
 }
 
+/* Typography */
 h2 {
   font-weight: bold;
 }
 
+/* Input elemnt styling  */
 input {
   height: 40px;
   border-radius: 5px;
 }
 
+/* Search button styling  */
 #search {
   display: block;
   margin: 15px 0;
@@ -39,6 +46,7 @@ input {
   color: white;
 }
 
+/* Stying for line under search btn  */
 #line {
   background-color: grey;
   height: 3px;
@@ -46,25 +54,30 @@ input {
   margin: 0;
 }
 
+/* UL styling  */
 ul {
   margin: 0;
   padding: 0;
 }
 
+/* Styling for current city data sectio  */
 #cityData {
-  border: solid 2px red;
+  border: solid 2px blue;
   margin: 10px;
 }
 
+/* Forecast section margin */
 #forecast {
   margin: 0px;
 }
 
+/* Typography  */
 h3 {
   font-size: 1.5rem;
   font-weight: bold;
 }
 
+/* Styling for each weather box  */
 .weatherBox {
   width: 190px;
   height: 250px;
@@ -75,6 +88,7 @@ h3 {
   font-size: 1rem;
 }
 
+/* Typography  */
 .datesSize {
   font-size: 1.25rem;
 }
